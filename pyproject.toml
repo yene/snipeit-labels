@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "snipeit-labels"
+version = "0.1.0"
+description = ""
+authors = ["Yannick Weiss <hi@yannick.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fpdf = "^1.7.2"
+qrcode = "^7.3.1"
+Pillow = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
